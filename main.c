@@ -77,6 +77,7 @@ alex@ubuntu:~/c/printf$ cat main.c
  */
 int main(void)
 {
+<<<<<<< HEAD
     int len;
     int len2;
     unsigned int ui;
@@ -109,4 +110,8 @@ int main(void)
     _printf("Unknown:[%r]\n");
     printf("Unknown:[%r]\n");
     return (0);
+=======
+_printf("%S\n", "Best\nSchool");
+return (0);
+>>>>>>> 69b59d2b52fb7765ec2b70c187a231edf6360a87
 }

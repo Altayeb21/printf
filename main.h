@@ -39,24 +39,24 @@ struct fmt
  */
 typedef struct fmt fmt_t;
 
-int _printfo(const char *format, ...);
+int _printf(const char *format, ...);
 int handle_print(const char *fmt, int *i,
 va_list list, char buffer[], int flags, int width, int precision, int size);
 
 /****************** FUNCTIONS ******************/
 
 /* Funtions to print chars and strings */
-int print_chaar(va_list types, char buffer[],
+int print_char(va_list types, char buffer[],
 	int flags, int width, int precision, int size);
-int print_stringa(va_list types, char buffer[],
+int print_string(va_list types, char buffer[],
 	int flags, int width, int precision, int size);
-int print_percenta(va_list types, char buffer[],
+int print_percent(va_list types, char buffer[],
 	int flags, int width, int precision, int size);
 
 /* Functions to print numbers */
-int print_insta(va_list types, char buffer[],
+int print_int(va_list types, char buffer[],
 	int flags, int width, int precision, int size);
-int print_binaryo(va_list types, char buffer[],
+int print_binary(va_list types, char buffer[],
 	int flags, int width, int precision, int size);
 int print_unsigned(va_list types, char buffer[],
 	int flags, int width, int precision, int size);

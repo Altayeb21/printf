@@ -76,7 +76,7 @@ int print_stringa(va_list types, char buffer[],
 }
 /************************* PRINT PERCENT SIGN *************************/
 /**
- * print_percentage - Prints a percent sign
+ * print_percenta - Prints a percent sign
  * @types: Lista of arguments
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
@@ -85,7 +85,7 @@ int print_stringa(va_list types, char buffer[],
  * @size: Size specifier
  * Return: Number of chars printed
  */
-int print_percentage(va_list types, char buffer[],
+int print_percenta(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
 {
 	UNUSED(types);
@@ -143,7 +143,7 @@ int print_insta(va_list types, char buffer[],
 
 /************************* PRINT BINARY *************************/
 /**
- * print_binary loid - Prints an unsigned number
+ * print_binaryo - Prints an unsigned number
  * @types: Lista of arguments
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
@@ -152,7 +152,7 @@ int print_insta(va_list types, char buffer[],
  * @size: Size specifier
  * Return: Numbers of char printed.
  */
-int print_binary loid(va_list types, char buffer[],
+int print_binaryo(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
 {
 	unsigned int n, m, i, sum;
